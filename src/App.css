@@ -1,0 +1,49 @@
+
+
+.products{
+    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    background-color: lavender;
+  }
+
+.products-container {
+    display: inline-block;
+}
+
+  #product1{
+    cursor: pointer;
+    border: solid 20px whitesmoke;
+    margin: 10px;
+  }
+
+  #banner1, #banner2, #banner3 {
+    object-fit: contain;
+  }
+
+  .price {
+    position: relative;
+    /* bottom: 65px; */
+    margin-left: 10px;
+    margin-top: 0;
+    background-color: whitesmoke;
+    padding: 3px;
+    border: 1px solid red;
+  }
+
+  .total {
+    line-height: 2.5;
+    margin-left: 10px;
+    width: 90px;
+  }
+
+  .brand:hover {
+    transition: all .5s;
+    color: rgb(50, 50, 192);
+  }
+
+  .basket-count {
+    line-height: 2.5;
+    width: 9.77px;
+  }
